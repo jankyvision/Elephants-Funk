@@ -1,0 +1,56 @@
+body {
+    background-color:#212529;
+}
+
+h1 {
+    color: #f35626;
+    font-weight: 900;
+    font-size: 69px;
+
+    background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 60s infinite linear;
+}
+
+@-webkit-keyframes hue {
+    from {
+      -webkit-filter: hue-rotate(0deg);
+    }
+
+    to {
+      -webkit-filter: hue-rotate(360deg);
+    }
+}
+
+.lead{
+    color: whitesmoke;
+    font-weight: 500;
+
+}
+
+.card {
+    background-color: #212529;
+  
+}
+
+.btn {
+    font-weight: 600;
+}
+
+.imageContainer {
+    float:left;
+}
+
+p {
+    text-align: center;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+
+
