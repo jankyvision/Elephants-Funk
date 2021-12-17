@@ -1,11 +1,20 @@
 body {
     background-color:#212529;
+    font-family: 'Press Start 2P', cursive;
 }
 
+.row {
+    padding-top: 5rem!important;
+    padding-bottom: 0rem!important;
+}
+
+.album {
+    padding-top: 0rem!important;
+}
 h1 {
     color: #f35626;
-    font-weight: 900;
-    font-size: 69px;
+    font-weight: 800;
+    /* font-size: 69px; */
 
     background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
     -webkit-background-clip: text;
@@ -26,6 +35,7 @@ h1 {
 .lead{
     color: whitesmoke;
     font-weight: 500;
+    font-family: 'Electrolize', sans-serif;
 
 }
 
@@ -36,6 +46,7 @@ h1 {
 
 .btn {
     font-weight: 600;
+    font-family: 'Electrolize', sans-serif;
 }
 
 .imageContainer {
